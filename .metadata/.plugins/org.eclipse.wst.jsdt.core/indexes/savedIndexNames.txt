@@ -1,0 +1,23 @@
+INDEX VERSION 1.4+/home/vastpro/javaTest1/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3850596922.index
+4121778329.index
+1215574256.index
+1568952194.index
+3331867624.index
+437762878.index
+2312292725.index
+132507233.index
+25176733.index
+3680854002.index
+2636536894.index
+1057756382.index
+2297329116.index
+1039750851.index
+1423122538.index
+3120878667.index
+2479755810.index
+242644622.index
+2011525361.index
+2144041717.index
+2355067973.index
+220613368.index

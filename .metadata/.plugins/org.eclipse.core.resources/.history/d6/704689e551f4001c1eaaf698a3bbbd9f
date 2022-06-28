@@ -1,0 +1,41 @@
+package com.repository;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.curdinterface.EmployeeInterface;
+import com.modalclass.Employee;
+
+public class EmployeeRespoitory implements EmployeeInterface<Employee> {
+
+	private Connection con = null;
+
+	public EmployeeRespoitory(Connection con) {
+		super();
+		this.con = con;
+	}
+
+	@Override
+	public Employee add(Employee e) {
+		
+		String insert = "insert into vastemployee values(?,?,?,?)";
+		
+		int added = 0;
+		
+		try {
+			
+			PreparedStatement ps = con.prepareStatement(insert);
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		return null;
+	}
+
+}

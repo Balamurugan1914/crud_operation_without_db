@@ -1,0 +1,4 @@
+url =  jdbc:postgres://localhost:5432/vastpro
+username = postgres
+password = postgres
+Driverclass = org.postgresql.Driver

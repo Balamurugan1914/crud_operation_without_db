@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+	<form action="">
+	<label for="firstname">FirstName</label>
+		<input type="text" name="firstname" id="firstname" /> 
+		<label for="lastname">LastName</label>
+		<input type="text" name="lastname" id="lastname" />
+		<label for="code">Code</label>
+		<input type="text" name="code" id="code" />
+	</form>
+
+
+	<script type="text/javascript">
+		var firstname = document.getElementById("firstname");
+		var code = document.getElementById("code");
+		firstname.addEventListener('blur', function() {
+
+			var nameEntered = firstname.value;
+
+			
+
+		});
+		
+		var lastname = document.getElementById("lastname");
+		
+		/* lastname.addEventListener('blur', function() {
+
+			var nameEntered = lastname.value;
+		 */
+		
+		 code.value = nameEntered.upperCase
+		
+	</script>
+
+</body>
+</html>

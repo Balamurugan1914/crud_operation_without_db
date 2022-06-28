@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+.outer{
+	
+	width: 300px;
+	height: 250px;
+	border: 2px  solid blue;
+	background-color: yellow
+	
+}
+
+.inner{
+	
+	
+	
+	width: 250px;
+	height: 150px;
+	border: 2px  dotted red;
+	
+}
+
+.child{
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid green;
+	display: inline;
+	float: left;
+	
+	background-color: blue
+	
+}
+.child1{
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid green;
+	display: inline;
+	float: left;
+	margin-left: 15px;
+	background-color: blue
+	
+}

@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+
+function callServlet(){
+	
+	var str = new XmXMLHttpRequest();
+	 var usernamefid= document.getElementById("username")
+
+        var username = usernamefid.value;
+
+var url = "Validate?username="+username;
+citytButton.addEventListener("click", function(){});
+
+
+	
+	str.onreadystatuschange = processrequest
+	
+	str.open(GET,url,true);
+	
+	str.send(null)
+}

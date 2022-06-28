@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+.dom{
+
+width: 60px;
+height: 60px;
+}
+
+.fontsizeup{
+
+font-size: 1.2em;
+
+
+}
+.fontsizeup1{
+
+font-size: 0.5em;
+
+
+}
+</style>
+</head>
+<body>
+
+<button id="incbtn" onclick="addClickEvent()"><img alt="increase font size" src="images/index1.jpeg" id="increment" class="dom" ></button>
+<button id="decbtn" onclick="addClickEvent()"><img alt="decrease font size" src="images/images1.jpeg" id="decrement" class="dom"></button>
+
+<h1>
+<p id="para1"> javascript is the world's most popular program
+
+javascript is easy to learn
+
+javascript is the programming language for web</p>
+
+
+</h1>
+
+<script type="text/javascript" src="Script/dom.js"></script>
+
+</body>
+</html>

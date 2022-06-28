@@ -1,0 +1,23 @@
+package com.service;
+
+import java.sql.Connection;
+
+import com.curdinterface.EmployeeInterface;
+import com.modalclass.Employee;
+import com.repository.EmployeeRespoitory;
+
+public class EmployeeService {
+	
+	private Connection con = null;
+	
+	private EmployeeInterface<Employee> emp = null;
+
+	public EmployeeService(Connection con) {
+		super();
+		this.con = con;
+		this.emp = new EmployeeRespoitory(con);
+	}
+
+}
+
+

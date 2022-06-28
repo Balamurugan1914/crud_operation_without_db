@@ -1,0 +1,14 @@
+/**
+ * Example on different ways of writing javascript function
+ */
+
+//Sample name Function
+
+
+function simple(){
+	
+	console.log("Hello world")
+	
+	
+	
+}

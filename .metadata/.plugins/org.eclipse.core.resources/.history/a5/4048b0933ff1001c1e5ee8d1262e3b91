@@ -1,0 +1,39 @@
+package com.repository;
+
+import java.util.*;
+
+import com.curdrepository.*;
+import com.modelclass.Book;
+
+public class BookRepository implements CurdRepository<Book> {
+
+	private List<Book> bookList;
+
+	public BookRepository() {
+		super();
+		this.bookList = new ArrayList<Book>();
+	}
+
+	public Book add(Book t) {
+
+		Boolean isAdded = this.bookList.add(t);
+		if (isAdded) {
+			return t;
+		} else {
+			return null;
+		}
+
+	}
+
+	public List<Book> findAll() {
+		// TODO Auto-generated method stub
+		return this.bookList;
+	}
+
+	@Override
+	public Book removeById(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

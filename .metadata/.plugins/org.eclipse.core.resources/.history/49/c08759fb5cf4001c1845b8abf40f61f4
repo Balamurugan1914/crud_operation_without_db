@@ -1,0 +1,8 @@
+package com.curdinterface;
+
+public interface EmployeeInterface<E> {
+	
+	public E add(E e);
+	
+
+}

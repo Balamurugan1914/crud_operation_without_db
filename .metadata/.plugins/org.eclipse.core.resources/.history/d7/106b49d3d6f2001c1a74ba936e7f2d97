@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+function display(){
+	
+	alert("welcome to javascript")
+}
+
+
+var app={}
+
+app.display = function(){
+	
+	alert("I am from anonymous function")
+	
+	
+	
+}
+
+
+

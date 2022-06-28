@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+
+
+function intfontsize(){
+	
+	
+	var par = document.getElementById("para1");
+	
+	par.setAttribute('class','fontsizeup')
+	
+}
+
+function addClickEvent(){
+	
+	/*var incButton = document.getElementById("incbtn");
+	
+	incButton.addEventListener('click', intfontsize);*/
+	
+	var img = document.getElementById("increment");
+	
+	img.addEventListener('click', intfontsize);
+	
+	
+}
+
+(function(){
+	
+	addClickEvent();
+	
+	
+})();

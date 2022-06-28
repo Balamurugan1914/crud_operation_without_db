@@ -1,0 +1,38 @@
+/**
+ * Example on different ways of writing javascript function
+ */
+
+//Sample name Function
+
+
+function simple(){
+	
+	console.log('Hello world' )
+	
+	
+	
+}
+
+/*simple named function with argument*/
+
+function add(name){
+	
+	if(name==null)
+	{
+		
+		document.write('welcome guest')
+	}else{
+		
+		
+		document.write('welcome'+" - "+name)
+	}
+	
+}
+
+
+(function(){
+	
+	simple();
+	add();
+	
+})();

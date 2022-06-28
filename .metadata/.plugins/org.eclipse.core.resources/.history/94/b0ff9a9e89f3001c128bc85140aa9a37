@@ -1,0 +1,11 @@
+package com.curdinterface;
+
+public interface StudentInterface<S> {
+	
+	
+	
+	
+	
+	
+
+}

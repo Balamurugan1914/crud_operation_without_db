@@ -1,0 +1,2 @@
+127.0.0.1 - - [28/Jun/2022:11:25:14 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Jun/2022:11:25:15 +0530] "GET /Java_Script_Example/Script/usingfunctionjavascript.js HTTP/1.1" 200 483

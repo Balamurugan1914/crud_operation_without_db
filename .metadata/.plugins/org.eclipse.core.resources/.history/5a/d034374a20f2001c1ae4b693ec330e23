@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Client List</title>
+
+
+
+<link href="style/mycssfilestyle.css" type="text/css" rel="stylesheet">
+<style type="text/css">
+h1 {
+	
+	color: #ffAAff;
+}
+</style>
+</head>
+<body>
+
+<h1 class="centerText" align="center">Client list</h1>
+<h4>2021-2022</h4>
+
+
+
+</body>
+</html>

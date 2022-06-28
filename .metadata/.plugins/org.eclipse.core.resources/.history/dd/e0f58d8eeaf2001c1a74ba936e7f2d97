@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+
+function callServlet(){
+	
+	var str = new XmXMLHttpRequest();
+	 var username= document.getElementById("username")
+
+        var username = username.value;
+
+var url = "Validate?username="+username;
+
+	
+	str.onreadystatuschange = processrequest
+	
+	str.open(GET,url,true);
+	
+	str.send(null)
+}

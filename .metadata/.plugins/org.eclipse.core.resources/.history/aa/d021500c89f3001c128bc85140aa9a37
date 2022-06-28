@@ -1,0 +1,5 @@
+package com.curdinterface;
+
+public interface EmployeeInterface {
+
+}

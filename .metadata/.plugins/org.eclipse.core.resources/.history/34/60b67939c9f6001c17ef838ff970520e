@@ -1,0 +1,102 @@
+/**
+ * 
+ */
+
+
+//document object
+//date object
+//history object
+//String object
+//window object
+
+
+function usingWindowObj(){
+	
+	window.location = "http://www.google.com"
+	
+	
+	
+	
+}
+
+
+function windowObjOpen(){
+	
+	window.open('index.html','indexpage')
+	
+}
+
+function invoke(){
+	
+	
+	var goToGoogleButton = document.getElementById("googlebtn");
+	
+	goToGoogleButton.addEventListener('click', usingWindowObj);
+	
+	var openwindowopen = document.getElementById("openbtn");
+	
+	openwindowopen.addEventListener('click' , windowObjOpen);
+	
+	var printButton = document.getElementById("printbtn");
+	
+	printButton.addEventListener('click' , function(){
+		
+		window.print();
+		
+	});
+	
+}
+
+
+function usingArrays(){
+	
+	var linkText = ['Home','client','carrier','aboutus','downloads'];
+	
+	writeToFile(linkText);
+	
+	//Array using constructor
+	
+	var city = new Array['chennai','coimbatore','madurai']
+	writeToFile(city);
+	
+	//Array using arg constructor
+	
+	var countries = new Array();
+	
+	countries[0] ='nepal';	
+	countries[1] ='Srilanka';	
+	countries[2] ='America';	
+	
+	writeToFile(countries);
+	
+}
+
+function writeToFile(item){
+	
+	document.write("<ul>");
+	
+	for(eachItem in item){
+		
+		document.write("<li>"+item[idxPos]+"</li>");
+		
+	}
+	
+	document.write("</ul>");
+	
+}
+
+
+
+
+(function(){
+	
+	
+	invoke();
+	usingArrays();
+	
+	
+})()
+
+
+
+

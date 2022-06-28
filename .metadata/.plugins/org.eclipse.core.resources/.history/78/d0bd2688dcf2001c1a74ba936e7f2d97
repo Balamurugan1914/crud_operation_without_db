@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+function display(){
+	
+	alert("welcome to javascript");
+}
+
+
+var app={}
+
+app.display = function(){
+	
+	alert("I am from anonymous function");
+	
+	
+	
+}
+
+app.readFile = function(){
+	
+	var messgaeOne = document.getElementById("img");
+	alert(messageOne.innerHTML); //get
+	var messageTwo = document.getElementsByTagName("div")[0];
+	alert(messageTwo.innerHTML);  
+}
+app.attachEvent = function(){
+	
+	var city = document.getElementById("city")
+	city.addEventListener("click",function(){
+		
+	var messgaeOne = document.getElementById("msg");	
+	messgaeOne.innerHTML = "Best city is Kovilpatti";  //set
+	
+});
+
+var city = document.getElementById("link")
+	city.addEventListener("click",function(event){
+		
+	event.preventDefault();
+	
+});
+
+
+

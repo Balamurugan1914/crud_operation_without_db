@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+.dom{
+
+width: 60px;
+height: 60px;
+}
+
+.fontsizeup{
+
+
+
+
+
+}
+.fontsizeup1{
+
+
+
+
+}
+</style>
+</head>
+<body>
+
+<button id="incbtn" onclick="addClickEvent()"><img alt="increase font size" src="images/index1.jpeg" id="increment" class="dom" ></button>
+<button id="decbtn" onclick="addClickEvent()"><img alt="decrease font size" src="images/images1.jpeg" id="decrement" class="dom"></button>
+<button id="incbtn" onclick="addClickEvent()"><img alt="increase font size" src="images/index1.jpeg" id="increment" class="dom" ></button>
+<button id="decbtn" onclick="addClickEvent()"><img alt="decrease font size" src="images/images1.jpeg" id="decrement" class="dom"></button>
+<h1>
+<p id="para1"> <ul><li>javascript is the world's most popular program</li>
+
+<li>javascript is easy to learn</li>
+
+<li>javascript is the programming language for web</li></ul></p>
+
+
+</h1>
+<h2>
+<p id="para2"> <ul><li>javascript is the world's most popular program</li>
+
+<li>javascript is easy to learn</li>
+
+<li>javascript is the programming language for web</li></ul></p>
+
+
+</h2>
+
+<script type="text/javascript" src="Script/dom.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+function display(){
+	
+	alert("welcome to javascript");
+}
+
+
+var app={}
+
+app.display = function(){
+	
+	alert("I am from anonymous function");
+	
+	
+	
+}
+
+app.readFile = function(){
+	
+	var messgaeOne = document.getElementById("img");
+	alert(messageOne.innerHTML);
+	var messageTwo = document.getElementsByTagName("div")[10];
+	alert(messageTwo.innerHTML);
+}
+
+
+
+

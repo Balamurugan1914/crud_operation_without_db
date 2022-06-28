@@ -1,0 +1,48 @@
+/**
+ * 
+ */
+
+
+//document object
+//date object
+//history object
+//String object
+//window object
+
+
+function usingWindowObj(){
+	
+	window.location = "http://www.google.com"
+	
+	
+	
+	
+}
+
+
+function open(){
+	
+	window.open('index.html','indexpage')
+	
+}
+
+function invoke(){
+	
+	
+	var goToGoogleButton = document.getElementById("googlebtn");
+	
+	goToGoogleButton.addEventListener('click', usingWindowObj);
+	
+}
+
+(function(){
+	
+	
+	invoke();
+	
+	
+})()
+
+
+
+

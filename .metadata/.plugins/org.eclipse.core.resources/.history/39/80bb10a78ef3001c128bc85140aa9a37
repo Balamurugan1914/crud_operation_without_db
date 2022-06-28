@@ -1,0 +1,16 @@
+package com.repository;
+
+import com.curd.modalclass.StudentDetails;
+import com.curdinterface.StudentInterface;
+
+public class StudentRespositoryDb implements StudentInterface<StudentDetails>{
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

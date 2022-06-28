@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+.dom{
+
+width: 60px;
+height: 60px;
+}
+
+.fontsizeup{
+
+font-size: 0.5em
+
+}
+
+</style>
+</head>
+<body>
+
+<img alt="increase foont size" src="images/index1.jpeg" id="increment" class="dom">
+
+<h1>
+<p id="para1"> <ul><li>javascript is the world's most popular program</li>
+
+<li>javascript is easy to learn</li>
+
+<li>javascript is the programming language for web</p></li>
+</ul>
+
+</h1>
+
+<script type="text/javascript" src="Script/dom.js"></script>
+
+</body>
+</html>

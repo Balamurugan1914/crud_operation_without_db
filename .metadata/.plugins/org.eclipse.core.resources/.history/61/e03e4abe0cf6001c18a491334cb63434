@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+
+function hidepara(){
+	
+	var para1 = document.getElementById("p1")
+	
+	para1.style.display= none
+	
+}
+
+
+</script>
+</head>
+<body>
+
+<button id="hidebtn">Hide</button>
+<p id="p1">
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis nemo quos fuga cumque sit id asperiores. 
+Earum ipsam error odit dolores expedita ad ut commodi quaerat tenetur veniam soluta laboriosam.
+
+
+
+</p>
+
+</body>
+</html>

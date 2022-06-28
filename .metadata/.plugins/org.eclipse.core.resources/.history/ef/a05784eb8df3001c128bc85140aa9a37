@@ -1,0 +1,35 @@
+package com.connection;
+
+import java.sql.Connection;
+import java.util.ResourceBundle;
+
+public class ConnectionUnit {
+	
+	Connection con = null;
+	
+	public Connection getConnection() {
+		
+	ResourceBundle app = ResourceBundle.getBundle("appilication");
+	
+	try {
+		
+		String Url = app.getString("datasource.postgres.url");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+		
+		
+		
+		
+	}
+	
+	
+
+}

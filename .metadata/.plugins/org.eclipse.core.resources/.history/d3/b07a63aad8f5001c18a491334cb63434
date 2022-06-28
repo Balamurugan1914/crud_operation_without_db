@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CS Styling</title>
+<link href="Style/sample.css" type="text/css" rel="stylesheet">
+
+
+</head>
+<body>
+
+<h1 id="title" > Style with CSS</h1>
+
+<h4>Vastpro</h4>
+
+
+<div class="bigBox">Chennai</div>
+<div class="bigBox effect" style="visibility: hidden;">Bangalore</div>
+<div class="bigBox effect" style="display: inline-block;">Bangalore</div>
+<div class="bigBox effect">Coimbatore</div>
+
+</body>
+</html>

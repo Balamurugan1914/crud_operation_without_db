@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+	<form action="">
+		<label for="firstname">FirstName</label> <input type="text"
+			name="firstname" id="firstname" /> <label for="lastname">LastName</label>
+		<input type="text" name="lastname" id="lastname" /> <label for="code">Code</label>
+		<input type="text" name="code" id="code" />
+	</form>
+
+
+	<script type="text/javascript">
+		var firstname = document.getElementById("firstname");
+
+		var lastname = document.getElementById("lastname");
+		var res1;
+		var code = document.getElementById("code");
+
+		firstname.addEventListener('blur', function() {
+
+			var nameEntered = firstname.value;
+
+			res1 = nameEntered.substring(0, 3);
+
+		});
+
+		lastname.addEventListener('blur', function() {
+
+			var nameEntereds = lastname.value;
+
+			res2= nameEntereds.substring(nameEntereds.length-3,nameEntereds.length);
+			
+			res3=res1.concat(res2);
+			code.value=res3;
+
+		});
+
+		
+
+		/* lastname.addEventListener('blur', function() {
+
+			var nameEntered = lastname.value;
+		 */
+	</script>
+
+</body>
+</html>

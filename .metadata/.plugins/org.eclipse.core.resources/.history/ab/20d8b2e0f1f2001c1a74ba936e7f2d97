@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome</title>
+</head>
+<body>
+
+	<form action="">
+		<div>
+			<label for="username">UserName</label> <input type="text"
+				name="username" id="username"  /><span id="msg"></span>
+		</div>
+		<div>
+			<label for="password">Password</label> <input type="text"
+				name="password" id="password" />
+		</div>
+		<div>
+			<input type="submit" value="submit">
+		</div>
+	</form>
+	<script type="text/javascript" src="index.js/ajax.js"></script>
+	<script type="text/javascript">
+	
+	callServlet();
+	
+	</script>
+</body>
+</html>

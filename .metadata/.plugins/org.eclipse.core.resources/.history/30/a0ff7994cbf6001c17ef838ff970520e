@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="usingScope.html">prev</a>
+<button id="googlebtn">Google</button>
+<button id="openbtn">open</button>
+<button id="printbtn">print</button>
+
+<a href="welcome.html">Next</a>
+<script type="text/javascript" src="Script/js_object.js"></script>
+
+</body>
+</html>

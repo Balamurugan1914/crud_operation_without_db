@@ -1,0 +1,20 @@
+package com.repository;
+
+import com.curdinterface.EmployeeInterface;
+import com.modalclass.Employee;
+
+public class EmployeeRespoitory implements EmployeeInterface<Employee> {
+	
+	
+	
+	
+
+	@Override
+	public Employee add(Employee e) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

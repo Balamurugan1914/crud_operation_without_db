@@ -1,0 +1,70 @@
+/**
+ * 
+ */
+
+
+//document object
+//date object
+//history object
+//String object
+//window object
+
+
+function usingWindowObj(){
+	
+	window.location = "http://www.google.com"
+	
+	
+	
+	
+}
+
+
+function windowObjOpen(){
+	
+	window.open('index.html','indexpage')
+	
+}
+
+function invoke(){
+	
+	
+	var goToGoogleButton = document.getElementById("googlebtn");
+	
+	goToGoogleButton.addEventListener('click', usingWindowObj);
+	
+	var openwindowopen = document.getElementById("openbtn");
+	
+	openwindowopen.addEventListener('click' , windowObjOpen);
+	
+	var printButton = document.getElementById("printbtn");
+	
+	printButton.addEventListener('click' , function(){
+		
+		window.print();
+		
+	});
+	
+}
+
+
+function usingArrays(){
+	
+	var linkText = ['Home','client','carrier','aboutus','downloads']
+	
+}
+
+
+
+
+(function(){
+	
+	
+	invoke();
+	
+	
+})()
+
+
+
+

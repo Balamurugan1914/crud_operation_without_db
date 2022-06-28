@@ -1,0 +1,33 @@
+package com.connection;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.util.ResourceBundle;
+
+public class ConnectionUnit {
+
+	Connection con = null;
+
+	public Connection getConnection() {
+
+		ResourceBundle app = ResourceBundle.getBundle("appilication");
+
+		try {
+
+			String Url = app.getString("datasource.postgres.url");
+			String username = app.getString("datasource.postgres.username");
+			String password = app.getString("datasource.postgres.password");
+
+			Class.forName("datasource.postgres.driverclass");
+
+			con = DriverManager.getConnection(Url, username, password);
+
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+
+		return con;
+
+	}
+
+}

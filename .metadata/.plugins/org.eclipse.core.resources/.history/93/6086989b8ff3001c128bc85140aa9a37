@@ -1,0 +1,29 @@
+package com.repository;
+
+import java.sql.Connection;
+
+import com.curd.modalclass.StudentDetails;
+import com.curdinterface.StudentInterface;
+
+public class StudentRespositoryDb implements StudentInterface<StudentDetails>{
+	
+	
+	private Connection con;
+
+	public StudentRespositoryDb(Connection con) {
+		super();
+		this.con = con;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

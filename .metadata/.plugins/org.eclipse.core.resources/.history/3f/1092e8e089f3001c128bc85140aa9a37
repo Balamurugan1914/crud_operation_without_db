@@ -1,0 +1,14 @@
+package com.curdinterface;
+
+import java.util.List;
+
+public interface StudentInterface<S> {
+	
+	public S insert(S s);
+	public List <S> findAll(S s);
+	
+	
+	
+	
+
+}

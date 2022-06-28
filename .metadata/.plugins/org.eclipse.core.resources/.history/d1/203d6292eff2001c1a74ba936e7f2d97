@@ -1,0 +1,47 @@
+/**
+ * 
+ */
+
+function callServlet() {
+	var xhr = new XMLHttpRequest();
+
+
+	usernameFld.addEventListener("blur", function() {
+		var usernameFld = document.getElementById("username");
+		var username = usernameFld.value;
+		var url = "Validate?username=" + username;
+		xhr.onreadystatechange = processRequest;
+		xhr.open("GET", url, true);
+		xhr.send(null);
+
+	});
+
+}
+
+
+function processRequest() {
+
+	if (xhr.status == 200 && xhr.readyState == 4) {
+
+		var regfield = document.getElementById("msg");
+		
+		var text = xhr.responseText;
+		
+		if(text == 'valid'){
+		
+		regfield.style.color = 'green';
+		regfield.innerHTML = text;
+	}
+	else{
+		
+		regfield.style.color = 'red';
+		regfield.innerHTML = text;
+	}
+
+
+
+
+}
+
+
+

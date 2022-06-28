@@ -1,0 +1,28 @@
+package com.connection;
+
+import java.sql.Connection;
+import java.util.ResourceBundle;
+
+public class ConnectionSource {
+	
+	public static Connection getConnection() {
+		
+	        Connection con = null;
+	        
+	        ResourceBundle file = ResourceBundle.getBundle("connection");
+	        
+	        try {
+	        
+	        String Driver_class = 
+			
+		
+		
+		
+	}catch (Exception e) {
+		// TODO: handle exception
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+
+function hidepara(){
+	
+	var para1 = document.getElementById("p1")
+	
+	para1.style.display= "none"
+	
+		
+	
+}
+
+function showpara(){
+	
+	var para2 = document.getElementById("p1")
+	
+	para2.style.display= "show"
+	
+		
+	
+}
+
+
+
+</script>
+</head>
+<body>
+
+<button id="hidebtn" onclick="hidepara()">Hide</button>
+<button id="showbtn" onclick="showpara()">Show</button>
+
+<p id="p1">
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis nemo quos fuga cumque sit id asperiores. 
+Earum ipsam error odit dolores expedita ad ut commodi quaerat tenetur veniam soluta laboriosam.
+
+
+
+</p>
+
+
+
+<script type="text/javascript">
+
+var showbtn = document.getElementById("showbtn")
+
+showbtn.style.display= "none"
+
+</script>
+
+
+
+
+
+</body>
+</html>

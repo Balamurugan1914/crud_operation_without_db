@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Book Stall</title>
+
+
+</head>
+<body>
+	<img src="images/book.jpeg">
+	<ul>
+		<li><a href="aboutus.html">About us</a></li>
+		<li><a href="client.html">Client</a></li>
+		<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</body>
+</html>

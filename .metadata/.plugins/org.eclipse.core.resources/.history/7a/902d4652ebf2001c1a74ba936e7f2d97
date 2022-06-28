@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+
+function callServlet(){
+	var xhr=new XMLHttpRequest();
+	
+	
+	usernameFld.addEventListener("blur", function(){
+	var usernameFld = document.getElementById("username");
+	var username=usernameFld.value;
+	var url ="validate?userName="+username;
+	xhr.onreadystatechange=processRequest;
+	xhr.open("GET",url,true);
+	xhr.send(null);
+		
+	}); 
+	
+}

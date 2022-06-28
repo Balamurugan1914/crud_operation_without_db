@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+var a = 1.2;
+
+
+function intfontsize(){
+	
+	a=a+1.5;
+	
+	var par = document.getElementById("para1");
+	
+	par.setAttribute('style','font-size:'+a+'em')
+	
+}
+function intfontsize1(){
+	
+	a=a-0.1;
+	var par = document.getElementById("para1");
+	
+	par.setAttribute('style','font-size:'+a+'em')
+	
+}
+
+function addClickEvent(){
+	
+	var incButton = document.getElementById("incbtn");
+	
+	incButton.addEventListener('click', intfontsize);
+	
+	var incButton = document.getElementById("decbtn");
+	
+	incButton.addEventListener('click', intfontsize1);
+	
+}
+
+(function(){
+	
+	addClickEvent();
+	
+	
+})();

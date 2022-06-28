@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+
+
+function intfontsize(){
+	
+	
+	var par = document.getElementById("para1");
+	
+	par.setAttribute('class','fontsizeup')
+	
+}
+function intfontsize1(){
+	
+	
+	var par = document.getElementById("para1");
+	
+	par.setAttribute('class','fontsizeup1')
+	
+}
+
+function addClickEvent(){
+	
+	var incButton = document.getElementById("incbtn");
+	
+	incButton.addEventListener('click', intfontsize);
+	
+	var incButton = document.getElementById("decbtn");
+	
+	incButton.addEventListener('click', intfontsize1);
+	
+}
+
+(function(){
+	
+	addClickEvent();
+	
+	
+})();
